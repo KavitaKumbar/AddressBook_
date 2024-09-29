@@ -1,0 +1,58 @@
+
+Requirements of project:
+-> To add contacts to the file.
+-> To store name,phone number and email of every contact.
+
+Functions of Addressbook:
+Address Book Menu:
+1. Create contact
+2. Search contact
+3. Edit contact
+4. Delete contact
+5. List all contacts
+6. Save contacts
+7. Exit
+
+1.Create contact :
+-> In this we will take contact details from user and then validate them with respect to that function.
+-> If all the functions are validated then it will be coped to addressbook and contact count will be incremented.
+*Name_validation:
+-> This function checks whether the input name is valid or not.It checks it contains only alphabets and does not exist already.
+->If the name is invalid or already exist it will ask to enter the name again.
+-> If the name is valid then it copy to addressbook contacts.
+*Phone_validation:
+-> In this function it checks the number contains exactly 10 digits and consists only numeric characters.
+-> This function checks whether the number is already exist or not.If number is invalid then it will ask to reenter the phone number'
+-> If the number is valid then it copy to addressbook contacts.
+*Email_validation:
+-> In this function it checks whether @ and .com present or not.And also checks if it is already exist or not.
+-> If it is invalid it will ask to reenter the email.
+-> If the email is valid then it copy to addressbook contacts.
+
+2.Search contact:
+-> In this function allows user to search the contact by name or phone number or email.
+-> If the contact is found it will display the details of that contact.
+
+3.Edit contact:
+-> In this function the user can edit the existing contact. The user can search the details by name,phone number or email and can choose what details to edit.
+->After editing,the details will be updated and saved.
+
+4.Delete contact:
+-> This function allows the user to delete the contact by searching. 
+-> If the contact is found it will be removed from addressbook abd contact count will be decremented.
+
+5.List all contacts:
+-> This function will list all the contacts which are currently stored in addressbook.
+-> It will display them with name,phone number and email.
+
+6.Save contacts to file:
+->This funtion will save all the contacts to contact.csv file.
+->Each contact will be saved on a new line.
+-> If we do any chages it should be saved to file by calling save contacts function.
+
+7.Load contacts from file:
+-> This function will read all contacts from contact.csv file.
+-> It will reads each line of the function until EOF.
+
+
+             
